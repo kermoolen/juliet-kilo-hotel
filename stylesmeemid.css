@@ -1,23 +1,28 @@
-/* Üldine galerii stiil */
 #meemid-galerii {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Kohanduv ruudustik */
-    gap: 20px; /* Vahe piltide vahel */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
     padding: 20px;
     max-width: 1200px;
-    margin: 0 auto; /* Keskendab galerii */
+    margin: 0 auto;
 }
 
-/* Piltide stiil */
 #meemid-galerii img {
-    width: 100%;  /* Täielik laius veerus */
-    height: auto; /* Säilitab proportsioonid */
-    border-radius: 10px; /* Ümarad nurgad */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Varjud piltidele */
-    transition: transform 0.3s; /* Sujuv efekt */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
 }
 
-/* Piltide hover efekt */
 #meemid-galerii img:hover {
-    transform: scale(1.05); /* Suurendab veidi hiirega peale minnes */
+    transform: scale(1.05);
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
