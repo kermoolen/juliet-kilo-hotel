@@ -59,33 +59,3 @@ p {
     margin-bottom: 20px;
     line-height: 1.8;
 }
-
-#meemid-galerii {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#meemid-galerii img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-}
-
-#meemid-galerii img:hover {
-    transform: scale(1.05);
-}
-
-.profile-img {
-    display: block;
-    margin: 0 auto 20px;
-    width: 200px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
