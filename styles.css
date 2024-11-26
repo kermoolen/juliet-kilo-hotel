@@ -45,7 +45,7 @@ main {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
-    text-align: center;
+    text-align: left;  /* Joondab kogu sisu vasakule */
 }
 
 /* Eluloo pilt */
@@ -59,7 +59,7 @@ main {
 
 /* Paragrahvi stiil */
 p {
-    text-align: justify;
+    text-align: left;  /* Joondab lõigud vasakule */
     font-size: 1.1em;
     color: #555;
     margin-bottom: 20px;
@@ -71,6 +71,7 @@ h2 {
     color: #444;
     margin-bottom: 20px;
     font-size: 2em;
+    text-align: center;
 }
 
 /* Jalus */
